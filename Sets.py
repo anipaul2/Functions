@@ -1,0 +1,15 @@
+#vowels = {'a', 'e', 'e', 'i', 'o', 'u', 'u'}
+#print(vowels)
+#vowels2 = set('aeeiouu')
+#print(vowels2)
+vowels = set('aeiou')
+word = 'hello'
+print(vowels)
+u = vowels.union(set(word))
+print(u)
+u_list = sorted(list(u))
+print(u_list)
+d = vowels.intersection(set(word))
+print(d) 
+i = vowels.difference(set(word))
+print(i)
