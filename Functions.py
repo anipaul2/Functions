@@ -1,7 +1,6 @@
 def searchforvowels(phrase:str) -> set:
     """Return any vowels found in a supplied word."""
-    vowels = set('aeiou')
-    return vowels.intersection(set(phrase))
+    return set('aeiou').intersection(set(phrase))
 print(searchforvowels('sky'))
 help(searchforvowels)
 def search4letters(phrase:str, letters:str = 'aeiou') -> set:

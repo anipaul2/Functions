@@ -1,4 +1,4 @@
-def searchforvowels(phrase:str) -> set:
+def searchforvowels(phrase: str) -> set:
     """Return any vowels found in a supplied phrase."""
     vowels = set('aeiou')
     return vowels.intersection(set(phrase))
